@@ -57,9 +57,18 @@ if st.button("Predict Quality"):
     
     # Make prediction
     predicted_quality = model.predict(input_scaled)
+    predicted_quality_value = predicted_quality[0]
+
+    # Classify the wine quality as low, medium, or high
+    if predicted_quality_value <= 4:
+        quality_category = "Low Quality"
+    elif predicted_quality_value <= 6:
+        quality_category = "Medium Quality"
+    else:
+        quality_category = "High Quality"
     
     # Display prediction result
-    st.write(f"Predicted Wine Quality: {predicted_quality[0]}")
+    st.write(f"Predicted Wine Quality: {predicted_quality_value} ({quality_category})")
 
 # Evaluate the model
 y_pred = model.predict(X_test)
