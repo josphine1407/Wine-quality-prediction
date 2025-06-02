@@ -90,8 +90,7 @@ To run the project locally, follow the steps below:
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/Ammosleek103/Wine-Quality-Prediction-using-ML.git
-cd Wine-Quality-Prediction-using-ML
+git clone https://github.com/josphine1407/Wine-quality-prediction
 ```
 
 2. **Install the required dependencies**:
@@ -151,26 +150,6 @@ The final model selected is the **Extra Trees Regressor**, which was tuned using
 - Implement feature engineering for better model accuracy.
 - Try different machine learning algorithms and tuning techniques for further accuracy improvement.
 - Deploy the app to **Heroku** or any other cloud platform for public access.
-
----
-
-### License
-
-This project is licensed under the **MIT License**.
-
----
-
-### Author
-
-**S. Charith**
-
-If you have any questions or suggestions, feel free to contact me!
-
----
-
-### Acknowledgments
-
-Thanks to **Kaggle** for providing the dataset.
 
 ---
 
