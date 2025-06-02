@@ -2,7 +2,7 @@
 
 ---
 
-## Wine Quality Check - End-to-End Machine Learning Project and Streamlit App
+## Wine Quality Prediction Using Machine Learning Project and Streamlit App
 
 ### Overview
 
